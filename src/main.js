@@ -2,7 +2,7 @@ import './assets/main.css'
 import router from './router/index.js'
 import { createPinia } from 'pinia'
 import piniaPluginPersistedstate from 'pinia-plugin-persistedstate'
-import './setUpLocalStorage.js';  // Import your setup script here
+import './setUpLocalStorage.js';
 
 import { createApp } from 'vue'
 import App from './App.vue'

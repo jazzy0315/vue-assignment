@@ -13,6 +13,4 @@
   </div>
 </template>
 
-<style scoped>
-/* You can add your styles here */
-</style>
+

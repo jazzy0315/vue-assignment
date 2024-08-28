@@ -7,26 +7,22 @@ const route = useRoute();
 const router = useRouter();
 const userId = route.params.id;
 
-// Access the auth store
 const authStore = useAuthStore();
 
-// Find the currently logged-in user by ID from the store's users state
 const user = computed(() => authStore.users.find(user => user.id == userId));
 
 if (!user.value) {
-  // If user is not found, redirect to login or show an error
   alert('User not found. Please log in.');
   router.push('/'); // Redirect to login page
 }
 
 const handleLogout = () => {
-  // Clear the auth state or perform any logout logic
   authStore.username = '';
   authStore.token = '';
   authStore.expireAt = '';
 
   alert('You have been logged out.');
-  router.push('/'); // Redirect to login page
+  router.push('/');
 };
 </script>
 
@@ -45,6 +41,4 @@ const handleLogout = () => {
   </div>
 </template>
 
-<style scoped>
-/* You can add your styles here */
-</style>
+

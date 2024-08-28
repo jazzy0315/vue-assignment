@@ -72,7 +72,6 @@ import {ref} from 'vue';
 import {useRouter} from 'vue-router';
 import {Form, Field} from 'vee-validate';
 import {useAuthStore} from '@/stores/authStore.js';
-import { required } from '@vee-validate/rules';
 
 
 const username = ref('');
@@ -147,12 +146,7 @@ const userNotify = () => {
 }
 
 const onSubmit = () => {
-  const form = document.querySelector('form');
 
-  // Trigger built-in browser validation
-  if (!form.reportValidity()) {
-    return; // Stop the function if the form is not valid
-  }
   const emailValidation = validateEmail(email.value);
   const passwordValidation = validatePassword(password.value);
   if (emailValidation === true && passwordValidation === true) {
@@ -170,10 +164,7 @@ const onSubmit = () => {
 </script>
 
 <style scoped>
-.register {
-  max-width: 400px;
-  margin: 0 auto;
-}
+
 
 form div {
   margin-bottom: 10px;
