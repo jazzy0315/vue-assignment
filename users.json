@@ -1,0 +1,68 @@
+[
+  {
+    "id": "12",
+    "username": "u",
+    "email": "u",
+    "password": "u"
+  },
+  {
+    "id": "1",
+    "username": "John Doe",
+    "email": "johndoe@example.com",
+    "password": "P@ssw0rd123"
+  },
+  {
+    "id": "2",
+    "username": "Jane Smith",
+    "email": "janesmith@example.com",
+    "password": "S3cur3P@ss"
+  },
+  {
+    "id": "3",
+    "username": "Robert Johnson",
+    "email": "robertjohnson@example.com",
+    "password": "MyP@ssw0rd!"
+  },
+  {
+    "id": "4",
+    "username": "Emily Davis",
+    "email": "emilydavis@example.com",
+    "password": "P@ssword123!"
+  },
+  {
+    "id": "5",
+    "username": "Michael Brown",
+    "email": "michaelbrown@example.com",
+    "password": "Br0wnieP@ss"
+  },
+  {
+    "id": "6",
+    "username": "Jessica Wilson",
+    "email": "jessicawilson@example.com",
+    "password": "Wils0nP@ssword"
+  },
+  {
+    "id": "7",
+    "username": "David Moore",
+    "email": "davidmoore@example.com",
+    "password": "M00reP@ss"
+  },
+  {
+    "id": "8",
+    "username": "Laura Taylor",
+    "email": "laurataylor@example.com",
+    "password": "TaylorP@ss123"
+  },
+  {
+    "id": "9",
+    "username": "Daniel Anderson",
+    "email": "danielanderson@example.com",
+    "password": "And3rs0nP@ss"
+  },
+  {
+    "id": 10,
+    "username": "Sarah Thomas",
+    "email": "sarahthomas@example.com",
+    "password": "Th0masP@ss!"
+  }
+]
